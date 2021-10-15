@@ -1,2 +1,1 @@
-# hjwu.github.io
-My solution issue blog
+forked from https://github.com/casualjavascript/blog
