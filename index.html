@@ -32,7 +32,7 @@
       const Header = (props) => {
         return html`
           <div className="header">            
-            <a className="logo" href="https://hjwu.github.io">seamonster anywhere</a>            
+            <a className="logo" href="https://hjwu.github.io/bbs-log">seamonster anywhere</a>            
           </div>
         `;
       }      
@@ -49,7 +49,7 @@
             if (issue_number && !comments) {
               const { url, ...options } = endpoint('GET /repos/:owner/:repo/issues/:issue_number/comments', {                
                 owner: 'hjwu',
-                repo: 'hjwu.github.io',
+                repo: 'bbs-log',
                 issue_number,
                 headers: {
                 },                
@@ -106,7 +106,7 @@
             if (!issues) {
               const { url, ...options } = endpoint('GET /repos/:owner/:repo/issues', {
                 owner: 'hjwu',
-                repo: 'hjwu.github.io',
+                repo: 'bbs-log',
                 headers: {
                 },
               });
